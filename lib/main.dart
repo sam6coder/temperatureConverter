@@ -86,7 +86,7 @@ class _TempPageState extends State<TempPage> {
                   ),
                 ),
                 SizedBox(width:10.0),
-                SizedBox(width: 220, height: 60, child: Obx(()=>TextField(
+                SizedBox(width: 200, height: 60, child: Obx(()=>TextField(
                   style: const TextStyle(color:Colors.white,fontSize: 20.0),
                   keyboardType: TextInputType.number,
                   onChanged: (str) {
@@ -123,7 +123,7 @@ class _TempPageState extends State<TempPage> {
                   ),
                 ),
                 SizedBox(width:10.0),
-                SizedBox(width: 220, height: 60, child: Obx(()=>TextField(
+                SizedBox(width: 200, height: 60, child: Obx(()=>TextField(
                   style: const TextStyle(color:Colors.white),
                   keyboardType: TextInputType.number,
                   onChanged: (str) {
@@ -162,7 +162,7 @@ class _TempPageState extends State<TempPage> {
                   ),
                 ),
                 SizedBox(width:10.0),
-                SizedBox(width: 220, height: 60, child: Obx(()=>TextField(
+                SizedBox(width: 200, height: 60, child: Obx(()=>TextField(
                   style: const TextStyle(color:Colors.white),
                   keyboardType: TextInputType.number,
                   onChanged: (str) {
